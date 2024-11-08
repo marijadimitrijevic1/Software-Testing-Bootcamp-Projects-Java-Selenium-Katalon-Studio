@@ -2,11 +2,11 @@
 # Project Title: Automation Testing with Java, Selenium, and Katalon Studio
 
 ## Description
-This project is focused on implementing automation tests using Java, Selenium, and Katalon Studio. It utilizes the Page Object Model (POM).
-The tests are focused on the demo websites [The Internet](https://the-internet.herokuapp.com/), and [CURA Healthcare Service] (https://katalon-demo-cura.herokuapp.com/) covering various functionalities like search, login functionality, element locators, browser functionality, making appointments.
+This project focuses on implementing automation tests using Java, Selenium, and Katalon Studio, and utilizing the Page Object Model (POM) design pattern.
+The tests are aimed at the demo websites: [The Internet] (https://the-internet.herokuapp.com/), and [CURA Healthcare Service] (https://katalon-demo-cura.herokuapp.com/) and cover various functionalities, including search, login, element locators, browser operations, and appointment scheduling.
 
 ## Project Structure
-The project is structured into different page classes and test classes, each representing a distinct aspect of the website
+The project is organized into distinct page classes and test classes, with each class representing a specific feature of the websites.
 
 ## Getting Started
 ### Prerequisites
@@ -15,13 +15,13 @@ The project is structured into different page classes and test classes, each rep
 - TestNG
 - Katalon Studio
 
-### Installation
+### Installation Steps
 1. Clone the repository.
-2. Import the project into your IDE.
-3. Resolve any dependencies (such as Selenium, TestNG).
+2. Import the project into your Integrated Development Environment (IDE).
+3. Resolve any dependencies, such as Selenium and TestNG.
 
 ### Running Tests
-To run the tests, navigate to the test classes and execute them either individually or collectively using TestNG.
+To execute the tests, navigate to the appropriate test classes and run them using TestNG, either individually or as a group.
 
 ## Usage
-The tests are designed to validate various functionalities of The Internet and CURA Healthcare Service websites. They use a data-driven testing approach, fetching data from an Excel file to simulate different user scenarios.
+The tests are designed to verify the functionalities of The Internet and CURA Healthcare Service websites. They utilize a data-driven testing methodology, which involves pulling data from an Excel file to replicate various user scenarios.
